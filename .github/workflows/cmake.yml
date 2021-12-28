@@ -16,9 +16,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Install dependency
+    - name: Update package
       run: |
-        sudo apt install libxrandr
+        sudo apt update
     
     - name: Git Init Sumbodule
       run: |
