@@ -5,7 +5,7 @@ project(mandelbrot)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
 add_executable(${PROJECT_NAME}  
-main.cpp
+mandelbrot.cpp
 ext/glad/src/glad.c
 )
 
