@@ -16,9 +16,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Update package
-      run: |
-        sudo apt update
+    - name: Install GLFW Deps
+      uses: RpxdYTX/install-glfw-deps@v2
     
     - name: Git Init Sumbodule
       run: |
