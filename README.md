@@ -3,6 +3,8 @@ high precision mandelbrot renderer
 
 ### Build with CMake
 ```
+git clone https://github.com/adruomnfd/mandelbrot.git
+cd mandelbrot
 cmake -Bbuild
 cmake --build
 ```
