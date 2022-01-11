@@ -5,7 +5,7 @@ high precision mandelbrot renderer
 ```
 git clone --recursive https://github.com/adruomnfd/mandelbrot.git
 cd mandelbrot
-cmake -Bbuild
+cmake -Bbuild --config Release
 cmake --build build
 build/mandelbrot
 ```
